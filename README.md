@@ -1,6 +1,6 @@
 # To-Go Burger Database Management System
 
-# Team Members:
+## Team Members:
 Jeffery Liu
 
 Rashedul Kabir
@@ -11,10 +11,10 @@ Abdulbariu Olukoga
 
 Wyeth Kong
 
-# I. Business Scenario:
+## I. Business Scenario:
 To-Go Burger is a fast food business that specializes in burgers and fries located in lower Manhattan. The company is currently facing a supplier management problem. Outdated supplier information, contact details, pricing, and delivery schedules are causing issues in ordering and pricing disputes. Additionally, there is confusion among employees regarding who oversees deliveries on specific days.
 
-# II. ER Model using UML notation:
+## II. ER Model using UML notation:
 
 Relationships:
 
@@ -31,7 +31,7 @@ Relationships:
 - One `<Employee>` must make one and only one `<Delivery>`.
 - One `<Delivery>` must be assigned by one and only one `<Employee>`.
 
-# III. Conversion to Relational Model:
+## III. Conversion to Relational Model:
 
 Final Set of Relations:
 
@@ -49,7 +49,7 @@ Order (OrderID(key), Date, Menu ID(fk), Order Quantity, Order Price, OrderType)
 
 Supplier Information (Supplier ID#(key), Supplier Name, Address, CEO, Number, Email, EnployeeID(fk))
 
-# IV. Normalization:
+## IV. Normalization:
 **Menu Table**:
 
 First Normal Form:
@@ -84,7 +84,7 @@ Third Normal Form:
 No transitive dependencies
 (Similar normalization steps apply to other tables)
 
-# V. Creating the Database Schema with Structured Query Language (SQL):
+## V. Creating the Database Schema with Structured Query Language (SQL):
 
 CREATE TABLE Customer
 
@@ -198,7 +198,7 @@ CREATE TABLE Supplier Information
 );
 
 
-# VI. Database Application:
+## VI. Database Application:
 Forms for inputting and deleting records are provided for customers, deliveries, employees, material information, orders, and supplier information.
 
 Reports are available for querying and analyzing customer data, deliveries, employees, material information, menus, orders, and supplier information.
