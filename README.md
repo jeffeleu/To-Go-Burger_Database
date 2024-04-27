@@ -203,6 +203,6 @@ Forms for inputting and deleting records are provided for customers, deliveries,
 
 Reports are available for querying and analyzing customer data, deliveries, employees, material information, menus, orders, and supplier information.
 
-# VII. Conclusion:
+## VII. Conclusion:
 For our project, we addressed a business scenario involving supplier management issues through an ER model, database normalization, SQL schema creation, and a user-friendly database application. Our efforts aimed at improving data accuracy, reliability, and efficiency for To-Go Burger. Continuous maintenance, optimization, and data archiving are suggested for future database enhancements.
 
